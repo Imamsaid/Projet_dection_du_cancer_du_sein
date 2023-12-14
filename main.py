@@ -1,8 +1,9 @@
 import streamlit as st
+from tensorflow import keras
 import numpy as np
-from tensorflow.keras.preprocessing import image
-from tensorflow.keras.models import load_model
-from tensorflow.keras.applications.vgg16 import preprocess_input
+from keras.preprocessing import image
+from keras.models import load_model
+from keras.applications.vgg16 import preprocess_input
 
 # Assurez-vous que l'importation de 'set_background' est correcte
 from util import set_background
