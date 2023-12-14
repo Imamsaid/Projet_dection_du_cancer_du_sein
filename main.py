@@ -1,9 +1,8 @@
 import streamlit as st
 import numpy as np
-from keras.preprocessing import image
+from tensorflow.keras.preprocessing import image
 from tensorflow.keras.models import load_model
 from tensorflow.keras.applications.vgg16 import preprocess_input
-import tensorflow as tf
 print(tf.__version__)
 
 
